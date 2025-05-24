@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Girl</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e2f;
+      margin: 0;
+      padding: 0;
+      color: #ff00cf;
+    }
+    header {
+      background: #222;
+      color:  #0000ff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #ff00cf;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #0000ff;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0000ff;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+    img.fade-in {
+      display: block;
+      max-width: 100%;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: 3px solid #ff00cf;
+      box-shadow: 0 0 15px rgba(255, 0, 207, 0.4);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out, transform 0.3s ease-in-out;
+    }
+    img.fade-in.visible {
+      opacity: 1;
+      transform: none;
+    }
+    img.fade-in:hover {
+      transform: scale(1.05);
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .members {
+      color: #ff00cf;
+      font-weight: bold;
+      text-align: center;
+      margin: 10px 0 30px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TV Girl — поп-группа из США</h1>
+  </header>
+
+  <nav>
+    <a href="#bio">О группе</a>
+    <a href="#songs">Популярные песни</a>
+    <a href="#albums">Альбомы</a>
+  </nav>
+
+  <div class="container">
+    <img src="https://stats.fm/api/image?url=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616100005174d80695211689a9c8c3fee3b0&w=384&q=75&fallbackImg=https://cdn.stats.fm/file/statsfm/images/placeholders/users/private.webp" alt="TV Girl" class="fade-in">
+
+    <div class="members fade-in">Состав:Брэд Питеринг (Brad Petering) — вокалист и фронтмен группы
+
+      Джейсон Вайман (Jason Wyman) — барабанщик
+      
+      Уятт Хармон (Wyatt Harmon) — клавишник </div>
+
+    <section id="bio" class="fade-in">
+      <h2>О группе</h2>
+      <p><strong>TV Girl</strong> — инди-поп группа из Калифорнии, основанная в 2010 году. Их стиль — это уникальное сочетание лоу-фай попа, элементов психоделической музыки и ностальгических сэмплов 60-х годов. Основателем коллектива является Брэд Питеринг, и именно он стал голосом, лицом и главным автором текстов.</p>
+      <p>Группа начала с выпуска EP и кассетных релизов, а уже в 2014 году дебютировала с полноформатным альбомом <em>French Exit</em>, который стал культовым среди поклонников инди-попа. Особенную популярность TV Girl приобрели благодаря платформе TikTok — песни «Lovers Rock» и «Not Allowed» стали вирусными, привлекая к группе молодую аудиторию по всему миру.</p>
+      <p>TV Girl часто затрагивают в своих песнях темы любви, разочарования, юношеской мечтательности и мимолётности счастья. Музыка коллектива сопровождается винтажными звуками и сэмплами, что делает её легко узнаваемой. Концерты TV Girl известны своей атмосферной подачей, визуальным стилем и взаимодействием с фанатами.</p>
+    </section>
+
+    <img src="https://upload.wikimedia.org/wikipedia/fa/9/96/TV_Girl_-_French_Exit.png" alt="Обложка альбома French Exit" class="fade-in">
+
+    <section id="songs" class="fade-in">
+      <h2>Популярные песни</h2>
+      <ul>
+        <li><strong>Lovers Rock</strong> — песня о летней любви, меланхоличная и мечтательная. Один из главных хитов, благодаря которому группа стала известна в TikTok.</li>
+        <li><strong>Not Allowed</strong> — рассказывает о чувствах одиночества и разочарования, при этом имеет яркий бит и лёгкое звучание.</li>
+        <li><strong>Cigarettes out the Window</strong> — композиция с характерной атмосферой ретро, затрагивает тему утраченных отношений.</li>
+        <li><strong>Taking What's Not Yours</strong> — песня о моральных дилеммах и внутренней борьбе, наполненная фирменными сэмплами группы.</li>
+      </ul>
+    </section>
+
+    <section id="albums" class="fade-in">
+      <h2>Альбомы</h2>
+      <ul>
+        <li><strong>French Exit (2014)</strong> — дебютный альбом, включающий любимые фанатами треки. Альбом пронизан темами любви, уязвимости и ностальгии. Считается культовым и самым популярным релизом TV Girl.</li>
+        <li><strong>Who Really Cares (2016)</strong> — более экспериментальный и саркастичный альбом, в котором рассматриваются темы любви, сексуальности и медиа. Отличается богатым использованием сэмплов и текстов с философским подтекстом.</li>
+        <li><strong>Grapes Upon the Vine (2023)</strong> — возвращение к корням группы, с более зрелым звучанием. Альбом был тепло принят критиками и слушателями за честность и музыкальную глубину.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+
+    const appearOptions = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+  </script>
+</body>
+</html>
